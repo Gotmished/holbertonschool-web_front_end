@@ -1,1 +1,1 @@
-Readme for project - Advanced HTML
+Readme for front end-based projects
