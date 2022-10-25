@@ -231,6 +231,11 @@ body {
     line-height: var(--line-height-base);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
 a:link {
     color: var(--text-color);
     text-decoration: none;
@@ -255,7 +260,7 @@ a:active {
     position: var(--header-logo-position);
 }
 
-.header-logo link {
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
@@ -275,11 +280,6 @@ a:active {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
 }
 
 .visually-hidden {
